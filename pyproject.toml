@@ -1,0 +1,20 @@
+[project]
+name = "gda-ideas-bulk-task-extraction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "llmbo",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "seaborn>=0.13.2",
+]
+
+[tool.uv.sources]
+llmbo = { git = "https://github.com/co-cddo/gds-idea-llmbo" }
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
