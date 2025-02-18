@@ -10,5 +10,6 @@ wheels/
 .venv
 
 data/*
-
+for_drive/*
+*.jsonl
 .env
